@@ -17,7 +17,7 @@ if page == "Home":
 elif page == "Crop Suggestion":
     st.header("🌾 Crop Suggestion Tool")
 
-    soil = st.selectbox("Select Soil Type", ["Sandy", "Clay", "Loamy"])
+    soil = st.selectbox("Select Soil Type", ["Sandy", "Clay", "Loamy","red ","black "])
     rainfall = st.slider("Annual Rainfall (mm)", 200, 2000, 800)
     temp = st.slider("Average Temperature (°C)", 10, 45, 25)
 
